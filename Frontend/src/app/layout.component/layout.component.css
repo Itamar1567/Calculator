@@ -1,0 +1,23 @@
+.layout-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+.layout-links li{
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: gray;
+    margin: 0;
+    left: 0;
+}
+.copyright h2{
+    padding: 2rem;
+}
