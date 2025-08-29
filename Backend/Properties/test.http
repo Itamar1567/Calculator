@@ -1,0 +1,10 @@
+GET http://localhost:5085/hello
+
+###
+
+POST http://localhost:5085/operations
+Content-Type: application/json
+
+{
+    "Input": "9*(9/9) - 2 + 1"
+}
